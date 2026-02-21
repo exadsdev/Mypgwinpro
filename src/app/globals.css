@@ -1,0 +1,70 @@
+/* FILE: src/app/globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== Base readability tweaks ===== */
+@layer base {
+  html {
+    /* ทำให้ตัวหนังสือดูสบายขึ้น */
+    font-size: 16px;
+  }
+
+  body {
+    @apply bg-black text-zinc-100 antialiased;
+    /* เพิ่มความอ่านง่าย: line-height + letter spacing แบบนิด ๆ */
+    line-height: 1.75;
+    letter-spacing: 0.2px;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* ทำให้ลิงก์อ่านง่ายขึ้น */
+  a {
+    @apply text-cyan-200 hover:text-cyan-100;
+  }
+}
+
+/* ===== Utility for readable content blocks ===== */
+@layer components {
+  /* จำกัดความกว้างบรรทัด ให้อ่านง่าย (อย่าให้กว้างเกิน) */
+  .readable {
+    @apply max-w-3xl;
+  }
+
+  /* ระยะห่างใน card ให้โล่งขึ้น */
+  .card-pad {
+    @apply p-6 md:p-7;
+  }
+
+  /* หัวข้อ/ย่อหน้าให้แยกชัด */
+  .h1 {
+    @apply text-3xl md:text-5xl font-extrabold tracking-tight;
+    line-height: 1.1;
+  }
+
+  .h2 {
+    @apply text-2xl md:text-3xl font-bold tracking-tight;
+    line-height: 1.2;
+  }
+
+  .p {
+    @apply text-base md:text-lg text-zinc-200;
+    line-height: 1.85;
+  }
+
+  .small {
+    @apply text-sm md:text-base text-zinc-300;
+    line-height: 1.7;
+  }
+
+  /* รายการ bullet ให้อ่านง่าย ไม่เบียด */
+  .list-relaxed {
+    @apply space-y-2;
+  }
+
+  /* กล่องพื้นหลังให้คอนทราสต์ดีขึ้นนิดนึง */
+  .panel {
+    @apply rounded-3xl border border-zinc-800/80 bg-zinc-950/60 shadow-neon;
+  }
+}

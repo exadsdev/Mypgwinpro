@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#06b6d4" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0.22"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="#05060a"/>
+  <rect x="40" y="40" width="1120" height="595" rx="40" fill="url(#g)" stroke="#1f2937" stroke-width="2"/>
+  <text x="80" y="150" fill="#e5e7eb" font-size="54" font-family="Arial, sans-serif" font-weight="700">Mini Report: รับทำโฆษณาสายเทา</text>
+  <text x="80" y="220" fill="#a1a1aa" font-size="28" font-family="Arial, sans-serif">Source: In-house vector illustration</text>
+  <g fill="none" stroke="#22d3ee" stroke-opacity="0.35" stroke-width="3">
+    <path d="M80 320 C220 260, 360 420, 500 360 S780 300, 980 380 S1100 420, 1140 340" />
+  </g>
+  <g>
+    <rect x="80" y="420" width="520" height="160" rx="24" fill="#0b1220" stroke="#1f2937" />
+    <rect x="640" y="420" width="520" height="160" rx="24" fill="#0b1220" stroke="#1f2937" />
+    <circle cx="120" cy="470" r="10" fill="#22d3ee" fill-opacity="0.7"/>
+    <rect x="145" y="458" width="390" height="22" rx="11" fill="#111827"/>
+    <rect x="145" y="495" width="320" height="18" rx="9" fill="#111827"/>
+    <rect x="145" y="525" width="270" height="18" rx="9" fill="#111827"/>
+    <circle cx="680" cy="470" r="10" fill="#a855f7" fill-opacity="0.7"/>
+    <rect x="705" y="458" width="390" height="22" rx="11" fill="#111827"/>
+    <rect x="705" y="495" width="340" height="18" rx="9" fill="#111827"/>
+    <rect x="705" y="525" width="250" height="18" rx="9" fill="#111827"/>
+  </g>
+</svg>

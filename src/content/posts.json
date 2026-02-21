@@ -1,0 +1,41 @@
+[
+  {
+    "slug": "grey-ads-structure-that-survives",
+    "title": "รับยิงแอดสายเทาให้ “อยู่รอด” ต้องเริ่มจากโครงสร้าง: Campaign → Ad Set → Ad ที่คุมความเสี่ยง",
+    "description": "อธิบายแนวคิดการวางโครงสร้างโฆษณาสายเทาแบบเน้นความเสถียร ลดโอกาสโดนจำกัด และทำให้ Optimize ได้จริง",
+    "date": "2026-02-21",
+    "tags": [
+      "รับยิงแอดสายเทา",
+      "โครงสร้างแคมเปญ",
+      "Performance"
+    ],
+    "coverImage": "/images/blog-structure.svg",
+    "coverSource": "Source: In-house vector illustration"
+  },
+  {
+    "slug": "tracking-for-grey-ads",
+    "title": "Tracking สำหรับรับทำโฆษณาสายเทา: ถ้าไม่วัดผล คุณจะ “เดา” ตลอดชีวิต",
+    "description": "เช็กลิสต์การตั้งค่า Conversion, UTM, และรายงานที่ทีมยิงแอดสายเทาควรมี เพื่อคุมต้นทุนและสเกลได้",
+    "date": "2026-02-21",
+    "tags": [
+      "รับทำโฆษณาสายเทา",
+      "Tracking",
+      "Conversion"
+    ],
+    "coverImage": "/images/blog-tracking.svg",
+    "coverSource": "Source: In-house vector illustration"
+  },
+  {
+    "slug": "creative-that-converts-grey",
+    "title": "Creative สายเทาให้ผ่านและแปลงยอด: ทำยังไงให้ “แรง” แต่ยังขายได้",
+    "description": "แนวทางทำครีเอทีฟและแลนดิ้งให้โน้มน้าวใจ ลดการหลุดของทราฟฟิก และช่วยให้ Conversion ต่อเนื่อง",
+    "date": "2026-02-21",
+    "tags": [
+      "ครีเอทีฟโฆษณา",
+      "รับยิงแอดสายเทา",
+      "Landing Page"
+    ],
+    "coverImage": "/images/blog-creative.svg",
+    "coverSource": "Source: In-house vector illustration"
+  }
+]
